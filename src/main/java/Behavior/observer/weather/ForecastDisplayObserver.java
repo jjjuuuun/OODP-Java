@@ -1,4 +1,4 @@
-package Behavior.observer.wheather;
+package Behavior.observer.weather;
 
 import java.math.BigDecimal;
 

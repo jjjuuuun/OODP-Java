@@ -1,4 +1,4 @@
-package Behavior.observer.wheather;
+package Behavior.observer.weather;
 
 public interface Subject {
     void registerObserver(Observer observer);
