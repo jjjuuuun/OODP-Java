@@ -1,5 +1,6 @@
 # SOLID Principle
-> 📢 보다 효율적이고 견고하며, 유지보수가 용이한 프로그램을 만들기 위한 다섯 가지
+> 📢 보다 효율적이고 견고하며, 유지보수가 용이한 프로그램을 만들기 위한 다섯 가지  
+>   
 > ⚠️ SOLID Principle을 지키는 것도 대부분의 경우에는 최적의 선택이 되지만 실무에서는 때때로 유연함을 발휘해야 할 때도 있음
 - 🔴 **S**(Single Responsibility Principle)
 - 🟠 **O**(Open/Closed Principle)
