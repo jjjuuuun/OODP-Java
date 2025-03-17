@@ -1,20 +1,20 @@
-package structure.adapter.composite.ui;
+package structure.composite.ui;
 
 import java.util.ArrayList;
 import java.util.List;
 
-class Panel implements UIComponent {
-    private String name;
+class Window implements UIComponent {
+    private String title;
     private List<UIComponent> components
             = new ArrayList<>();
 
-    public Panel(String name) {
-        this.name = name;
+    public Window(String title) {
+        this.title = title;
     }
 
     @Override
     public void render() {
-        System.out.println("Panel: " + name);
+        System.out.println("Window: " + title);
         components.forEach(UIComponent::render);
     }
 

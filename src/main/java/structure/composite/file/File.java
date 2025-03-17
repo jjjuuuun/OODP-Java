@@ -1,4 +1,4 @@
-package structure.adapter.composite.file;
+package structure.composite.file;
 
 class File implements FileSystemComponent {
     private String name;

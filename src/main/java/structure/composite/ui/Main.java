@@ -1,4 +1,4 @@
-package structure.adapter.composite.ui;
+package structure.composite.ui;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,15 +1,15 @@
-package structure.adapter.composite.ui;
+package structure.composite.ui;
 
-class TextBox implements UIComponent {
-    private String text;
+class Button implements UIComponent {
+    private String label;
 
-    public TextBox(String text) {
-        this.text = text;
+    public Button(String label) {
+        this.label = label;
     }
 
     @Override
     public void render() {
-        System.out.println("TextBox: " + text);
+        System.out.println("Button: " + label);
     }
 
     @Override

@@ -1,4 +1,4 @@
-package structure.adapter.composite.ui;
+package structure.composite.ui;
 
 interface UIComponent {
     void render();

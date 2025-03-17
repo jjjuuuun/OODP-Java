@@ -1,4 +1,4 @@
-package structure.adapter.composite.file;
+package structure.composite.file;
 
 import java.util.List;
 import java.util.ArrayList;

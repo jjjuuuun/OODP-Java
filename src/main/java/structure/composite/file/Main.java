@@ -1,4 +1,4 @@
-package structure.adapter.composite.file;
+package structure.composite.file;
 
 // Client
 public class Main {
