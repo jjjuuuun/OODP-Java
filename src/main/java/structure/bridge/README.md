@@ -5,8 +5,8 @@
 
 - Example
   - Device
-    - Implementation Class: Device(`TV`, `Radio`)
-    - Abstract Class: Remote(`BasicRemote`, `AdvancedRemote`)
+    - Implementation Class: `Device`(`TV`, `Radio`)
+    - Abstract Class: `Remote`(`BasicRemote`, `AdvancedRemote`)
   - Message
-    - Implementation Class: Sender(`EmailSender`, `SMSSender`)
-    - Abstract Class: Message(`TextMessage`, `EncryptedMessage`)
+    - Implementation Class: `Sender`(`EmailSender`, `SMSSender`)
+    - Abstract Class: `Message`(`TextMessage`, `EncryptedMessage`)
