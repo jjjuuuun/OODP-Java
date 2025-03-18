@@ -2,7 +2,10 @@
 > [!NOTE]
 > 책임 연쇄 패턴은 요청을 처리할 수 있는 객체들의 체인을 따라 요청을 전달하는 패턴입니다.
 
-![Chain of Responsibility](../../../../../img/behavior/chain_of_responsibility.png)
+<p align="center">
+  <img src="../../../../../img/behavior/chain_of_responsibility.png">
+</p>
+
 - 두 가지 필수적인 기능
   - 주어진 요청을 처리하는 기능
     - 각 객체마다 나름의 방식으로 주어진 input에 대한 기능을 수행

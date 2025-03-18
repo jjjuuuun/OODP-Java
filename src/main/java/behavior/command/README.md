@@ -2,7 +2,10 @@
 > [!NOTE]
 > 커맨드 패턴은 명령어들을 객체로 만들어두고 이를 컬렉션에 저장하여 원하는 때에 실행, 실행 취소, 로깅 등 다양하게 활용할 수 있도록 해줍니다.
 
-![Command](../../../../../img/behavior/command.png)
+<p align="center">
+  <img src="../../../../../img/behavior/command.png">
+</p>
+
 - 구성 요소
   - Receiver
     - Command를 받아서 실제 실행하는 클래스
