@@ -4,3 +4,6 @@
 >   
 > 싱글톤 패턴은 OODP 중에서도 특별히 독특하면서도 중요한 패턴입니다.
 
+<p align="center">
+  <img src="../../../../../img/creation/singleton.png">
+</p>
