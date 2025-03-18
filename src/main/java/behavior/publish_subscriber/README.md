@@ -2,6 +2,10 @@
 > [!NOTE]
 > 발행 구독 패턴은 복잡한 분산 시스템에서 컴포넌트 간의 느슨한 결합을 유지하면서 효율적인 비동기 통신과 확장성을 제공하여 유연합니다.
 
+<p align="center">
+  <img src="../../../../../img/behavior/publisher_subscriber.png">
+</p>
+
 - 관찰자 패턴과 유사
   - Publisher - Subject
   - Subscriber - Observer
