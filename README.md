@@ -40,9 +40,14 @@
 
 ## 🔵 DIP(Dependency Inversion Principle)
 - **DIP**: 의존성 역전 법칙
-- 고수준 모듈이 저수준 모듈에 의존해서는 안된다는 원칙
+- 고수준 모듈은 저수준 모듈에 의존하지 않고 고수준 모듈과 저수준 모듈은 모두 추상화에 의존해야 한다는 원칙
+  1. Interface를 만들고 모든 코드가 추상화에만 의존하도록 만들어주기
+  2. **Interface 소유권의 역전(Separated Interface Pattern)**
+     - Interface를 구현한 모듈에 Interface를 위치시키는게 아니라 Interface를 사용하는 모듈에 Interface를 위치시켜 소유권을 역전
+     - 고수준 모듈만 Compile 해서 사용하면 고수준 모듈의 수정 없이 언제든지 저수준 모듈만 교체하여 새로운 구현을 수행할 수 있게 됨
 - 고수준 모듈: 추상화된 로직을 제공하는 모듈(Ex. 리모콘)
 - 저수준 모듈: 구체적인 동작을 직접 구현하는 모듈(Ex. TV, 에어컨 등 리모콘을 통해 동작을 직접 하는 객체)
+- 모듈을 구분하는 가장 기본적인 방법은 Package
 
 # Behavioral Patterns
 🔗 [1. Chain Of Responsibility](./src/main/java/behavior/chain_of_responsibility) 🖼️    
